@@ -71,3 +71,14 @@ body{
     width: 550px;
     margin-bottom: 48px;
 }
+.andrew-details{
+    margin-bottom: 16px;
+    display: flex;
+    gap: 20px;
+}
+.andrew{
+    font-weight: 900;
+}
+.andrew-proffesion{
+    color: #3f3f3f;
+}
