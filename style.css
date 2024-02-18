@@ -48,6 +48,7 @@ body{
     align-items: center;
     gap: 8px;
     width: 550px;
+    margin-bottom: 16px;
 }
 .email{
     display: flex;
@@ -66,6 +67,7 @@ body{
     background-color: rgba(34, 85, 243, 255);
 }
 .input-subtext{
+    color: #807b7b;
     width: 550px;
     margin-bottom: 48px;
 }
