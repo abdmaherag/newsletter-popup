@@ -1,0 +1,5 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(180deg, rgb(251,155,172), rgb(243, 209, 229), rgb(189,191,249));
+    overflow: hidden;
+}
