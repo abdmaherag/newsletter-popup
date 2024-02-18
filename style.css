@@ -9,14 +9,13 @@ body{
     
 }
 .newsletter{
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border: 2px solid blue;
     border-radius: 8px;
-    
-
 }
 .pattern{
     display: flex;
@@ -27,6 +26,7 @@ body{
     height: 220px;
     padding: 20px;
     width: 550px;
+    margin-bottom: 16px;
 }
 .pattern-text{
     align-self: center;
@@ -35,4 +35,37 @@ body{
     font-weight: 700;
     font-size: 32px;
     width: 400px;
+}
+.pattern-sub-text{
+    color: #959495;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 550px;
+}
+.email{
+    display: flex;
+    flex-grow: 3;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #f5f6fb;
+}
+.subscribe{
+    flex-grow: 1;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(34, 85, 243, 255);
+}
+.input-subtext{
+    width: 550px;
+    margin-bottom: 48px;
 }
